@@ -45,7 +45,7 @@ export class ZoomRangePageComponent implements AfterViewInit, OnDestroy {
       container: this.divMap.nativeElement, // container ID
       style: 'mapbox://styles/mapbox/streets-v12', // style URL
       center: this.lngLat, // starting position [lng, lat]
-      zoom: 9, // starting zoom
+      zoom: this.zoom, // starting zoom
     });
     this.mapListener();
   }
