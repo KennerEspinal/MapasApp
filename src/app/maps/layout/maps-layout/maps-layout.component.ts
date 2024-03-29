@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
       top: 20px;
       left: 20px;
       z-index: 999;
-      width: 180px;
     }
   `
 })
